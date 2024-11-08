@@ -12,7 +12,7 @@
 
   /* text colors */
   --text-primary: #292524;
-  --text-secondary: ##57534E;
+  --text-secondary: #57534E;
   --text-tertiary: #8F8881;
   --text-highlight: #E43A12;
 
@@ -46,4 +46,18 @@
 
   --text-md: 400 1rem/1.5 var(--font-family); 
   --text-sm: 400 0.875rem/1.4 var(--font-family);
+}
+
+body {
+  font: var(--text-md);
+  color: var(--text-secondary);
+  overflow: hidden;
+}
+
+h1, h2 {
+  color: var(--text-primary);
+}
+
+img {
+  max-width: 100%;
 }
