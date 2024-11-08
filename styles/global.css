@@ -35,4 +35,15 @@
   --blue: #B8CEDC;
   --violet: #C3B2E7;
   --pink: #F682A5;
+
+  /* font family */
+  --font-family: 'Poppins', sans-serif;
+
+  /* font properties */
+  --title-lg: 600 2.5rem/1.25 var(--font-family);
+  --title-md: 600 1.5rem/1.25 var(--font-family);
+  --title-sm: 600 1rem/1.25 var(--font-family);
+
+  --text-md: 400 1rem/1.5 var(--font-family); 
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
 }
