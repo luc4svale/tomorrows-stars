@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 51.25% 48.75%;
   
-
+  
   main{
     padding: 4rem;; 
     overflow-y: auto;
@@ -31,6 +31,7 @@
       }
     }
   }
+
 
   aside{
     padding: 4rem;

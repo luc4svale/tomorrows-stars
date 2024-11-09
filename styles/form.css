@@ -1,0 +1,21 @@
+form {
+  margin-top: 3rem;
+
+  fieldset {
+    border: none;
+    display: grid;
+    gap: 1.5rem;
+
+    legend {
+      font: var(--title-sm);
+      margin-bottom: 1.5rem;
+      color: #292524;
+    }
+
+    label {
+      font: var(--text-sm);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+  }
+}
