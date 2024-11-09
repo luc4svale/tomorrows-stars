@@ -18,4 +18,8 @@ form {
       margin-bottom: 0.25rem;
     }
   }
+
+  fieldset + fieldset {
+    margin-top: 3rem;
+  }
 }

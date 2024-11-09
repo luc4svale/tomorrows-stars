@@ -85,5 +85,19 @@ select {
   }
 }
 
+#address-info .flex {
+  gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]){
+  opacity: 0.5;
+}
+
+input {
+
+  &[disabled] {
+    background-color: var(--surface-disabled);
+  }
+}
 
 
