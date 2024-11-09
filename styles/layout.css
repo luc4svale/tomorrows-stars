@@ -4,10 +4,9 @@
   display: grid;
   grid-template-columns: 51.25% 48.75%;
   
-  
   main{
-    padding: 4rem;; 
-    overflow-y: auto;
+    padding: 4rem;
+    overflow: auto;
     background-color: var(--surface-primary);
 
     #main-container{
@@ -27,7 +26,7 @@
 
       h1 {
         font: var(--title-md);
-        margin-bottom: 0.5rem;;
+        margin-bottom: 0.5rem;
       }
     }
   }
@@ -39,23 +38,13 @@
 
     #aside-container{
       max-width: 31rem;
-      margin-right: auto;
 
       header {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
         margin-bottom: 2rem;
-
-        img{
-          height: 32px;
-          width: 203px;;
-        }
 
         h2 {
           font: var(--title-lg);
           margin-block: 0.5rem;
-
           span {
             color: var(--text-highlight);
           }

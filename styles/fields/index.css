@@ -1,3 +1,5 @@
+@import url(./droparea.css);
+
 /* Common properties */
 input, 
 select, 
@@ -17,7 +19,7 @@ input,
 select {
   border: 1px solid transparent;
 
-  &:focus {
+  &:focus, &:focus-within {
     border-color: var(--stroke-highlight);
     outline: 0.25rem solid var(--surface-secondary);
     outline-offset: 0.1px;
@@ -82,4 +84,6 @@ select {
     background-image: url("../../assets/icons/arrow-up.svg");
   }
 }
+
+
 
