@@ -22,4 +22,12 @@ form {
   fieldset + fieldset {
     margin-top: 3rem;
   }
+
+  #actions-wrapper {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
 }
