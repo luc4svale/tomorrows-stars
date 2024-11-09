@@ -128,6 +128,37 @@
             </div>
 
           </fieldset>
+
+          <fieldset id="guardian-info">
+            <legend>Informações do responsável</legend>
+
+            <div class="input-wrapper">
+              <label for="guadian-name">Nome do responsável</label>
+              <input type="text" name="guadian-name" id="guadian-name">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input type="tel" name="phone" id="phone" placeholder="(10) 9 8765-4321">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input 
+                type="email" 
+                name="mail" 
+                id="mail" 
+                placeholder="example@email.com"
+                required
+              />
+              <div class="error">
+                <img src="./assets/icons/alert-circle.svg" alt="Ícone de alerta vermelho">
+                <span>Insira um e-mail válido</span>
+              </div>
+            </div>
+
+          </fieldset>
         </form>
       </div>
     </main>
