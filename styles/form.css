@@ -12,7 +12,7 @@ form {
       color: #292524;
     }
 
-    label {
+    label, .label {
       font: var(--text-sm);
       display: block;
       margin-bottom: 0.25rem;
